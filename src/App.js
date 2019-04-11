@@ -1,28 +1,33 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Name from './Name'
+import NameController from './NameController'
 
+// const Name = () => {
+//   return (<h1>Nima</h1>)
+// }
+
+// const NameController = () => {
+//   return (
+//     <div>
+//       <button>Tony</button>
+//       <button>Nima</button>
+//       <button>Jane</button>
+//     </div>
+//   )
+// }
 class App extends Component {
+  state = {name: 'Nima'}
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Name />
+        <NameController />
       </div>
     );
   }
 }
+
 
 export default App;
