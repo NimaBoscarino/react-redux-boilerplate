@@ -1,4 +1,4 @@
-import { combineReducers } from "../../../Library/Caches/typescript/3.4/node_modules/redux";
+import { combineReducers } from 'redux';
 
 function nameReducer(state = {
   name: 'Initial Name'
