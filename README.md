@@ -1,4 +1,4 @@
-# Simple Redux Boilerplate
+# Simple Redux Boilerplate (with bonus React Router!)
 
 ![](https://cl.ly/8a48a60c1933/Screen%20Recording%202019-04-11%20at%2004.59%20PM.gif)
 
@@ -8,6 +8,9 @@ While the setup for Redux into a project can be a little annoying, once you get 
 
 I'm going to add a couple extra things to this over the next little bit, but you should be safe with just deleting everything in the `render` for `App.js`, any unused components, and just customize this to your needs.
 
+## React Router
+
+In the main branch (`master`) there is a boilerplate with ONLY Redux. In the branch `redux-router` I have React Router 5 set up. Note, it has _nothing_ to do with Redux. React Router is just really useful for making nice single-page apps, so I wanted to include it in here.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
